@@ -16,4 +16,3 @@ https://rsshub.rssforever.com/github/starred_repos/DIYgod
 https://rsshub.rssforever.com/huggingface/blog-zh
 https://rsshub.rssforever.com/ippa
 https://rsshub.rssforever.com/chlinlearn/daily-blog
-3. 发到email就很简单了
