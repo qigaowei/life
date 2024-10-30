@@ -1,3 +1,4 @@
 - https://docs.rsshub.app/zh/guide/
 - 可通过以上链接的方法获取最新消息
 - 不过延迟蛮严重的
+- https://docs.rsshub.app/zh/guide/instances，这里面有延迟低的
