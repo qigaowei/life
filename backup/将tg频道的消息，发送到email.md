@@ -1,0 +1,3 @@
+- https://docs.rsshub.app/zh/guide/
+- 可通过以上链接获取最新消息
+- 不过延迟蛮严重的
