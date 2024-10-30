@@ -16,3 +16,5 @@ https://rsshub.rssforever.com/github/starred_repos/DIYgod
 https://rsshub.rssforever.com/huggingface/blog-zh
 https://rsshub.rssforever.com/ippa
 https://rsshub.rssforever.com/chlinlearn/daily-blog
+3. 其实就是爬虫，用java自己爬也行
+    - 上面有源码
