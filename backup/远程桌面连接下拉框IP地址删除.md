@@ -1,0 +1,4 @@
+- https://blog.csdn.net/u013430110/article/details/126090183
+- 删除注册表
+- 定位到HKEY_CURRENT_USER\SOFTWARE\Microsoft\Terminal Server Client\Default注册项；
+- 找到你需要删除的MRU*并将其删除即可！
