@@ -1,3 +1,4 @@
+管理员运行
 winsat disk
 winsat disk -drive e 
 
