@@ -1,0 +1,2 @@
+- https://mp.weixin.qq.com/s/0mksyrgmoZTpLYAkM0L7nA
+- https://github.com/xanderfrangos/twinkle-tray
