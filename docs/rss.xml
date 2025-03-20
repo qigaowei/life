@@ -1,19 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://qigaowei.github.io/digit</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://qigaowei.github.io/digit</link></image><lastBuildDate>Thu, 20 Mar 2025 06:10:41 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>项目多个modules的问题</title><link>https://qigaowei.github.io/digit/post/xiang-mu-duo-ge-modules-de-wen-ti.html</link><description> 1. 父pom里面定义的
-```xml
-&lt;modules&gt;
-       &lt;module&gt;nngame-goods-api&lt;/module&gt;
-       &lt;module&gt;nngame-goods-servant&lt;/module&gt;
-&lt;/modules&gt;
-```
-2. 对应的代码的文件夹也要是nngame-goods-api和nngame-goods-servant
-3. 子pom内容为
-```xml
-&lt;artifactId&gt;nngame-goods-api&lt;/artifactId&gt;
-```
-```xml
-&lt;artifactId&gt;nngame-goods-servant&lt;/artifactId&gt;
-```。</description><guid isPermaLink="true">https://qigaowei.github.io/digit/post/xiang-mu-duo-ge-modules-de-wen-ti.html</guid><pubDate>Thu, 20 Mar 2025 06:10:21 +0000</pubDate></item><item><title>有些新闻上如果没有财政部  没人出钱  估计很难推行</title><link>https://qigaowei.github.io/digit/post/you-xie-xin-wen-shang-ru-guo-mei-you-cai-zheng-bu-%20%20-mei-ren-chu-qian-%20%20-gu-ji-hen-nan-tui-xing.html</link><guid isPermaLink="true">https://qigaowei.github.io/digit/post/you-xie-xin-wen-shang-ru-guo-mei-you-cai-zheng-bu-%20%20-mei-ren-chu-qian-%20%20-gu-ji-hen-nan-tui-xing.html</guid><pubDate>Thu, 20 Mar 2025 02:01:07 +0000</pubDate></item><item><title>Twinkle Tray可以调节显示器亮度</title><link>https://qigaowei.github.io/digit/post/Twinkle%20Tray-ke-yi-diao-jie-xian-shi-qi-liang-du.html</link><description>- https://mp.weixin.qq.com/s/0mksyrgmoZTpLYAkM0L7nA
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://qigaowei.github.io/digit</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://qigaowei.github.io/digit</link></image><lastBuildDate>Thu, 20 Mar 2025 16:17:41 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>有些新闻上如果没有财政部  没人出钱  估计很难推行</title><link>https://qigaowei.github.io/digit/post/you-xie-xin-wen-shang-ru-guo-mei-you-cai-zheng-bu-%20%20-mei-ren-chu-qian-%20%20-gu-ji-hen-nan-tui-xing.html</link><guid isPermaLink="true">https://qigaowei.github.io/digit/post/you-xie-xin-wen-shang-ru-guo-mei-you-cai-zheng-bu-%20%20-mei-ren-chu-qian-%20%20-gu-ji-hen-nan-tui-xing.html</guid><pubDate>Thu, 20 Mar 2025 02:01:07 +0000</pubDate></item><item><title>Twinkle Tray可以调节显示器亮度</title><link>https://qigaowei.github.io/digit/post/Twinkle%20Tray-ke-yi-diao-jie-xian-shi-qi-liang-du.html</link><description>- https://mp.weixin.qq.com/s/0mksyrgmoZTpLYAkM0L7nA
 - https://github.com/xanderfrangos/twinkle-tray。</description><guid isPermaLink="true">https://qigaowei.github.io/digit/post/Twinkle%20Tray-ke-yi-diao-jie-xian-shi-qi-liang-du.html</guid><pubDate>Mon, 17 Mar 2025 02:19:04 +0000</pubDate></item><item><title>远程桌面连接下拉框IP地址删除</title><link>https://qigaowei.github.io/digit/post/yuan-cheng-zhuo-mian-lian-jie-xia-la-kuang-IP-di-zhi-shan-chu.html</link><description>- https://blog.csdn.net/u013430110/article/details/126090183&#13;
 - 删除注册表&#13;
 - 定位到HKEY_CURRENT_USER\SOFTWARE\Microsoft\Terminal Server Client\Default注册项；&#13;
