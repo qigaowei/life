@@ -1,5 +1,5 @@
-# Blog Title :link: https://qigaowei.github.io/digit 
-### :page_facing_up: [63](https://qigaowei.github.io/digit/tag.html) 
+# Blog Title :link: https://qigaowei.github.io/life
+### :page_facing_up: [63](https://qigaowei.github.io/life/tag.html) 
 ### :speech_balloon: 0 
 ### :hibiscus: 8752 
 ### :alarm_clock: 2025-03-24 13:53:14 
