@@ -1,5 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://qigaowei.github.io/life</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://qigaowei.github.io/life</link></image><lastBuildDate>Sat, 12 Apr 2025 00:10:17 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>一定要慎言，第一句话不要随便开口，更不能随便找对手。</title><link>https://qigaowei.github.io/life/post/yi-ding-yao-shen-yan-%EF%BC%8C-di-yi-ju-hua-bu-yao-sui-bian-kai-kou-%EF%BC%8C-geng-bu-neng-sui-bian-zhao-dui-shou-%E3%80%82.html</link><description>我在派出所，处理人员复杂警情的时候，如果已经打起来了，肯定是先分开打架动手的。</description><guid isPermaLink="true">https://qigaowei.github.io/life/post/yi-ding-yao-shen-yan-%EF%BC%8C-di-yi-ju-hua-bu-yao-sui-bian-kai-kou-%EF%BC%8C-geng-bu-neng-sui-bian-zhao-dui-shou-%E3%80%82.html</guid><pubDate>Mon, 07 Apr 2025 07:52:11 +0000</pubDate></item><item><title>租售比陷阱</title><link>https://qigaowei.github.io/life/post/zu-shou-bi-xian-jing.html</link><description>&lt;p&gt;我在网上看到有个网友说月租 2, 000 的房，就算没有空置期，卖40万也是坑，算下来租金收益率都有 6% 了。</description><guid isPermaLink="true">https://qigaowei.github.io/life/post/zu-shou-bi-xian-jing.html</guid><pubDate>Mon, 07 Apr 2025 01:24:11 +0000</pubDate></item><item><title>房地产是到目前为止收割财富最锋利的一把镰刀</title><link>https://qigaowei.github.io/life/post/fang-di-chan-shi-dao-mu-qian-wei-zhi-shou-ge-cai-fu-zui-feng-li-de-yi-ba-lian-dao.html</link><description>&lt;p&gt;房地产是到目前为止收割财富最锋利的一把镰刀。</description><guid isPermaLink="true">https://qigaowei.github.io/life/post/fang-di-chan-shi-dao-mu-qian-wei-zhi-shou-ge-cai-fu-zui-feng-li-de-yi-ba-lian-dao.html</guid><pubDate>Mon, 07 Apr 2025 01:20:01 +0000</pubDate></item><item><title>炒股</title><link>https://qigaowei.github.io/life/post/chao-gu.html</link><description>1. 控制本金
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://qigaowei.github.io/life</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://qigaowei.github.io/life</link></image><lastBuildDate>Thu, 17 Apr 2025 02:08:49 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>程序员---常用网址</title><link>https://qigaowei.github.io/life/post/cheng-xu-yuan-----chang-yong-wang-zhi.html</link><description>[chatgpt](https://chatgpt.com)
+[redis-windows下载](https://github.com/redis-windows/redis-windows/releases)
+[批量投简历-前端版](https://github.com/yangfeng20/boss_batch_push)
+[Markdown 简历模版](https://github.com/CyC2018/Markdown-Resume)
+[u3c3BT种子网站](https://u3c3.com)
+[boss直聘](https://www.zhipin.com/web/geek/job?query=Java&amp;city=101010100)
+[docker代理地址](https://github.com/docker-practice/docker-registry-cn-mirror-test)
+[bejson](https://www.bejson.com/)
+[驼峰转下划线，下划线转驼峰](https://www.bejson.com/convert/camel_underscore/)
+[英文字母大小写转换](https://bigtosmall.bmcx.com/)
+[随机身份证号码生成](https://www.lddgo.net/common/idgenerator)
+[谷歌翻译](https://translate.google.com/)
+[百度翻译](https://fanyi.baidu.com/)
+[阿里云推广链接](https://free.aliyun.com/?source=5176.29345612&amp;userCode=tn6aursu)
+[阿里云大使](https://dashi.aliyun.com/?spm=5176.29188366.J_9220772140.21.1eaa3e4dWhmXmL)
+[阿里云创业者计划权益](https://usercenter2.aliyun.com/home/benefits-overview?spm=5176.20960838.J_h00sgPB9cY9o-NQG3jRVW.1.73402868L6Xb9B)
+[阿里云创业者计划](https://startup.aliyun.com/startups/?spm=5176.29188366.J_9220772140.20.1eaa3e4dfYSA3P)
+[阿里云ai智能平台](https://pai.console.aliyun.com/)
+[阿里云代金券](https://usercenter2.aliyun.com/coupons/voucher)
+[阿里云试用](https://free.aliyun.com/)
+[ecs阿里云服务器](https://ecs.console.aliyun.com/)
+[mingming图床](https://images.mingming.dev/)
+[catbox图床](https://catbox.moe/)
+[niupic图床](https://www.niupic.com/)
+[路透社](https://www.reuters.com/)
+[abobe-pdf-to-word](https://www.adobe.com/acrobat/online/pdf-to-word.html)
+[abobe-pdf-to-ppt](https://www.adobe.com/acrobat/online/pdf-to-ppt.html)
+[abobe-pdf-to-excel](https://www.adobe.com/acrobat/online/pdf-to-excel.html)
+[cron](https://it-tools.tech/crontab-generator)
+[Jiumo Search 鸠摩搜索 - 文档搜索引擎](https://www.jiumodiary.com/)
+[dbeaver](https://dbeaver.io/download/)
+[nvm-windows](https://github.com/coreybutler/nvm-windows/releases)
+[chromedriver](https://googlechromelabs.github.io/chrome-for-testing/)。</description><guid isPermaLink="true">https://qigaowei.github.io/life/post/cheng-xu-yuan-----chang-yong-wang-zhi.html</guid><pubDate>Thu, 17 Apr 2025 02:08:21 +0000</pubDate></item><item><title>一定要慎言，第一句话不要随便开口，更不能随便找对手。</title><link>https://qigaowei.github.io/life/post/yi-ding-yao-shen-yan-%EF%BC%8C-di-yi-ju-hua-bu-yao-sui-bian-kai-kou-%EF%BC%8C-geng-bu-neng-sui-bian-zhao-dui-shou-%E3%80%82.html</link><description>我在派出所，处理人员复杂警情的时候，如果已经打起来了，肯定是先分开打架动手的。</description><guid isPermaLink="true">https://qigaowei.github.io/life/post/yi-ding-yao-shen-yan-%EF%BC%8C-di-yi-ju-hua-bu-yao-sui-bian-kai-kou-%EF%BC%8C-geng-bu-neng-sui-bian-zhao-dui-shou-%E3%80%82.html</guid><pubDate>Mon, 07 Apr 2025 07:52:11 +0000</pubDate></item><item><title>租售比陷阱</title><link>https://qigaowei.github.io/life/post/zu-shou-bi-xian-jing.html</link><description>&lt;p&gt;我在网上看到有个网友说月租 2, 000 的房，就算没有空置期，卖40万也是坑，算下来租金收益率都有 6% 了。</description><guid isPermaLink="true">https://qigaowei.github.io/life/post/zu-shou-bi-xian-jing.html</guid><pubDate>Mon, 07 Apr 2025 01:24:11 +0000</pubDate></item><item><title>房地产是到目前为止收割财富最锋利的一把镰刀</title><link>https://qigaowei.github.io/life/post/fang-di-chan-shi-dao-mu-qian-wei-zhi-shou-ge-cai-fu-zui-feng-li-de-yi-ba-lian-dao.html</link><description>&lt;p&gt;房地产是到目前为止收割财富最锋利的一把镰刀。</description><guid isPermaLink="true">https://qigaowei.github.io/life/post/fang-di-chan-shi-dao-mu-qian-wei-zhi-shou-ge-cai-fu-zui-feng-li-de-yi-ba-lian-dao.html</guid><pubDate>Mon, 07 Apr 2025 01:20:01 +0000</pubDate></item><item><title>炒股</title><link>https://qigaowei.github.io/life/post/chao-gu.html</link><description>1. 控制本金
    &lt;p&gt;如果你买的股票的金额，非常影响你的心态，你的生活。</description><guid isPermaLink="true">https://qigaowei.github.io/life/post/chao-gu.html</guid><pubDate>Thu, 03 Apr 2025 07:25:50 +0000</pubDate></item><item><title>只有降房价才能够救地产</title><link>https://qigaowei.github.io/life/post/zhi-you-jiang-fang-jia-cai-neng-gou-jiu-di-chan.html</link><description>&lt;p&gt;只有降房价才能够救地产，房地产走到今天，逐渐失去流动性，原因根本就不复杂，就是价格太高了，太贵了，普通人买不起了。</description><guid isPermaLink="true">https://qigaowei.github.io/life/post/zhi-you-jiang-fang-jia-cai-neng-gou-jiu-di-chan.html</guid><pubDate>Thu, 03 Apr 2025 07:04:31 +0000</pubDate></item><item><title>原来一直喊着是买房抗通胀</title><link>https://qigaowei.github.io/life/post/yuan-lai-yi-zhi-han-zhao-shi-mai-fang-kang-tong-zhang.html</link><description>&lt;p&gt;原来一直喊着是买房抗通胀，现在整个逻辑又变了，成了卖房抗通胀。</description><guid isPermaLink="true">https://qigaowei.github.io/life/post/yuan-lai-yi-zhi-han-zhao-shi-mai-fang-kang-tong-zhang.html</guid><pubDate>Thu, 03 Apr 2025 06:49:33 +0000</pubDate></item><item><title>买房就是</title><link>https://qigaowei.github.io/life/post/mai-fang-jiu-shi.html</link><description>1
 买房就是
 买家负债
