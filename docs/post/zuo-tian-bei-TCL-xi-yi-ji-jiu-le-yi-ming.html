@@ -93,17 +93,18 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>昨天被TCL洗衣机救了一命<br>
-TCL洗衣机报警说电压低<br>
-跟电网的说了<br>
-他们十分钟就来了<br>
-一看电报烧了<br>
-换了个电表<br>
-但是换的时候<br>
-他们接错线了<br>
-炸了一下<br>
-无情<br>
-真是不敬畏生产环境</p></div>
+<div class="markdown-body" id="postBody"><p>昨天被TCL洗衣机救了一命
+TCL洗衣机报警说电压低
+跟电网的说了
+他们十分钟就来了
+一看电报烧了
+换了个电表
+但是换的时候
+他们接错线了
+炸了一下
+无情
+真是不敬畏生产环境</p>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -168,6 +169,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");

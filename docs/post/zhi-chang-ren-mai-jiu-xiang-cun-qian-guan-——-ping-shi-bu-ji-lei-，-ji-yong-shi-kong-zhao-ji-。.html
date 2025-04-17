@@ -74,7 +74,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><p>比如，逢年过节发条消息，不用长篇大论，简单一句“张总，祝您新年顺利”就足够刷存在感。</p>
-<p>或者，偶尔请教专业问题，既能展示成长，又能让对方感到被尊重。</p></div>
+<p>或者，偶尔请教专业问题，既能展示成长，又能让对方感到被尊重。</p>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -139,6 +140,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");

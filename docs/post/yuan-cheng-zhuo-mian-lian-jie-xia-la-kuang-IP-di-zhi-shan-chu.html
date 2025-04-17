@@ -80,11 +80,12 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><ul>
-<li><a href="https://blog.csdn.net/u013430110/article/details/126090183" rel="nofollow">https://blog.csdn.net/u013430110/article/details/126090183</a></li>
+<li>https://blog.csdn.net/u013430110/article/details/126090183</li>
 <li>删除注册表</li>
 <li>定位到HKEY_CURRENT_USER\SOFTWARE\Microsoft\Terminal Server Client\Default注册项；</li>
 <li>找到你需要删除的MRU*并将其删除即可！</li>
-</ul></div>
+</ul>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -149,6 +150,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");

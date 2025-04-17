@@ -73,11 +73,12 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>突然想到一个问题，全国17年出生的小孩是23年的2倍。<br>
-23年出生的，到29年上小学的时候。有两种可能性<br>
-1，一种前50%的学校按17的招生人数招，那后50%的学校就没有学生了<br>
-2，全部学校都按17年50%的招生人数招，那就意味着老师原来改40个人的作业，变成了改20个人的作业，工作量减半，还有编制。是不是神仙岗位？<br>
-你们觉得会是哪种？</p></div>
+<div class="markdown-body" id="postBody"><p>突然想到一个问题，全国17年出生的小孩是23年的2倍。
+23年出生的，到29年上小学的时候。有两种可能性
+1，一种前50%的学校按17的招生人数招，那后50%的学校就没有学生了
+2，全部学校都按17年50%的招生人数招，那就意味着老师原来改40个人的作业，变成了改20个人的作业，工作量减半，还有编制。是不是神仙岗位？
+你们觉得会是哪种？</p>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -142,6 +143,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");

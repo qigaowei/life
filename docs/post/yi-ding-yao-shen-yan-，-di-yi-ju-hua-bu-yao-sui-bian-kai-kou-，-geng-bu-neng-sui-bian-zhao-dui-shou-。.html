@@ -75,7 +75,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div class="markdown-body" id="postBody"><p>我在派出所，处理人员复杂警情的时候，如果已经打起来了，肯定是先分开打架动手的。总之，现场只要没人打架或者受伤，第一件事就是事无巨细地去问、去了解情况，而绝不是表达自己的想法。</p>
 <p>任何话都一定有倾向性，只是或多或少，能听出话外音的人不在少数，不要觉得自己比天下人聪明。</p>
-<p>多问。问也是一门艺术，问的过程中去发现周围围观人员中的特殊人员，也就是可能嚷嚷这批人，问他们的意见，让他们把主要观点表达出来，这样他们的势头会大减，因为憋在嘴里的舌剑已经吐了出来。</p></div>
+<p>多问。问也是一门艺术，问的过程中去发现周围围观人员中的特殊人员，也就是可能嚷嚷这批人，问他们的意见，让他们把主要观点表达出来，这样他们的势头会大减，因为憋在嘴里的舌剑已经吐了出来。</p>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -140,6 +141,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");

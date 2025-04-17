@@ -107,24 +107,25 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>1<br>
-买房就是<br>
-买家负债<br>
-卖家拿走现金<br>
-2<br>
-要么你负债<br>
-要么我负债<br>
-财富不会凭空产生<br>
-3<br>
-房子涨<br>
-买家就要负更多的债<br>
-房子跌<br>
-买家可以负更少的债<br>
-4<br>
-买房的觉得卖房的傻<br>
-要涨价了，你还卖<br>
-卖房的觉得买房的傻<br>
-要跌了，先跑了</p></div>
+<div class="markdown-body" id="postBody"><p>1
+买房就是
+买家负债
+卖家拿走现金
+2
+要么你负债
+要么我负债
+财富不会凭空产生
+3
+房子涨
+买家就要负更多的债
+房子跌
+买家可以负更少的债
+4
+买房的觉得卖房的傻
+要涨价了，你还卖
+卖房的觉得买房的傻
+要跌了，先跑了</p>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -189,6 +190,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");

@@ -76,9 +76,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><ul>
-<li><a href="https://mp.weixin.qq.com/s/ILqxG9b6v8Cp1GYRaIcONg" rel="nofollow">https://mp.weixin.qq.com/s/ILqxG9b6v8Cp1GYRaIcONg</a></li>
+<li>https://mp.weixin.qq.com/s/ILqxG9b6v8Cp1GYRaIcONg</li>
 <li>这种收银小票，通常是“热敏纸”材质表面含有双酚A（BPA)涂层，是一种雌激素可能会影响生殖发育和致癌</li>
-</ul></div>
+</ul>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -143,6 +144,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");

@@ -76,9 +76,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><ul>
-<li><a href="https://mp.weixin.qq.com/s/0mksyrgmoZTpLYAkM0L7nA" rel="nofollow">https://mp.weixin.qq.com/s/0mksyrgmoZTpLYAkM0L7nA</a></li>
-<li><a href="https://github.com/xanderfrangos/twinkle-tray">https://github.com/xanderfrangos/twinkle-tray</a></li>
-</ul></div>
+<li>https://mp.weixin.qq.com/s/0mksyrgmoZTpLYAkM0L7nA</li>
+<li>https://github.com/xanderfrangos/twinkle-tray</li>
+</ul>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -143,6 +144,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");

@@ -93,7 +93,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>将刮舌板或牙刷，放在舌头后部，慢慢向前拉，一直到抵达舌尖；</p>
 <p>每次使用后，用纸巾擦拭刮舌板或刷头表面；</p>
 <p>重复 2～3 遍这个过程，直到舌头表面干净（始终保持从后向前移动）；</p>
-<p>刷完后，清洗干净刮舌板或者牙刷，并保持干爽</p></div>
+<p>刷完后，清洗干净刮舌板或者牙刷，并保持干爽</p>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -158,6 +159,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");

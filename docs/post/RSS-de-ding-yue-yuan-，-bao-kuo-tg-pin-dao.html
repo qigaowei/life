@@ -114,31 +114,32 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><ol>
 <li>订阅源
 <ul>
-<li><a href="https://docs.rsshub.app/zh/guide/" rel="nofollow">https://docs.rsshub.app/zh/guide/</a></li>
+<li>https://docs.rsshub.app/zh/guide/</li>
 <li>可通过以上链接的方法获取tg频道最新消息，不过延迟蛮严重的</li>
 <li>下面有延迟低的，比如</li>
-<li><a href="https://docs.rsshub.app/zh/guide/instances" rel="nofollow">https://docs.rsshub.app/zh/guide/instances</a></li>
-<li><a href="https://rsshub.rssforever.com/telegram/channel/pelosi3" rel="nofollow">https://rsshub.rssforever.com/telegram/channel/pelosi3</a></li>
+<li>https://docs.rsshub.app/zh/guide/instances</li>
+<li>https://rsshub.rssforever.com/telegram/channel/pelosi3</li>
 </ul>
 </li>
-<li>推荐<br>
-<a href="https://rsshub.rssforever.com/gelonghui/live" rel="nofollow">https://rsshub.rssforever.com/gelonghui/live</a><br>
-<a href="https://rsshub.rssforever.com/cls/telegraph" rel="nofollow">https://rsshub.rssforever.com/cls/telegraph</a><br>
-<a href="https://rsshub.rssforever.com/cls/hot" rel="nofollow">https://rsshub.rssforever.com/cls/hot</a><br>
-<a href="https://rsshub.rssforever.com/nifd/research/3333d2af-91d6-429b-be83-28b92f31b6d7" rel="nofollow">https://rsshub.rssforever.com/nifd/research/3333d2af-91d6-429b-be83-28b92f31b6d7</a><br>
-<a href="https://rsshub.rssforever.com/xueqiu/hots" rel="nofollow">https://rsshub.rssforever.com/xueqiu/hots</a><br>
-<a href="https://rsshub.rssforever.com/inewsweek/survey" rel="nofollow">https://rsshub.rssforever.com/inewsweek/survey</a><br>
-<a href="https://rsshub.rssforever.com/stdaily/digitalpaper" rel="nofollow">https://rsshub.rssforever.com/stdaily/digitalpaper</a><br>
-<a href="https://rsshub.rssforever.com/github/starred_repos/DIYgod" rel="nofollow">https://rsshub.rssforever.com/github/starred_repos/DIYgod</a><br>
-<a href="https://rsshub.rssforever.com/huggingface/blog-zh" rel="nofollow">https://rsshub.rssforever.com/huggingface/blog-zh</a><br>
-<a href="https://rsshub.rssforever.com/ippa" rel="nofollow">https://rsshub.rssforever.com/ippa</a><br>
-<a href="https://rsshub.rssforever.com/chlinlearn/daily-blog" rel="nofollow">https://rsshub.rssforever.com/chlinlearn/daily-blog</a></li>
+<li>推荐
+https://rsshub.rssforever.com/gelonghui/live
+https://rsshub.rssforever.com/cls/telegraph
+https://rsshub.rssforever.com/cls/hot
+https://rsshub.rssforever.com/nifd/research/3333d2af-91d6-429b-be83-28b92f31b6d7
+https://rsshub.rssforever.com/xueqiu/hots
+https://rsshub.rssforever.com/inewsweek/survey
+https://rsshub.rssforever.com/stdaily/digitalpaper
+https://rsshub.rssforever.com/github/starred_repos/DIYgod
+https://rsshub.rssforever.com/huggingface/blog-zh
+https://rsshub.rssforever.com/ippa
+https://rsshub.rssforever.com/chlinlearn/daily-blog</li>
 <li>其实就是爬虫，用java自己爬也行
 <ul>
 <li>上面有源码</li>
 </ul>
 </li>
-</ol></div>
+</ol>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -203,6 +204,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");

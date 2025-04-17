@@ -76,7 +76,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><ul>
 <li>现实世界中的力量对比，实际上遵循着一种特定的层级结构——信息差凌驾于智慧之上，智慧又超越了单纯的努力。换句话说，你仅仅拥有聪明的头脑，却未能置身于一个信息丰富且高阶的环境中，就如同明珠暗投，难以发挥出其应有的光芒。</li>
 <li>当你置身于正确的信息流和圈子之中时，你会发现，原来人生的路并不一定要那么累、那么苦。</li>
-</ul></div>
+</ul>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -141,6 +142,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");

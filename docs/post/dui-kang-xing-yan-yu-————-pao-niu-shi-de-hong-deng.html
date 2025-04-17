@@ -75,12 +75,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div class="markdown-body" id="postBody"><ol>
 <li>女生有对抗性言语。直接pass</li>
-<li>比如<br>
-2.1 发问号<br>
-2.2 喜欢大方的男人<br>
-2.3 算了吧<br>
+<li>比如
+2.1 发问号<br />
+2.2 喜欢大方的男人<br />
+2.3 算了吧
 2.4 怼你</li>
-</ol></div>
+</ol>
+</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -145,6 +146,7 @@ document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
     cmButton.innerHTML="loading";
     span=document.createElement("span");
     span.setAttribute("class","AnimatedEllipsis");
