@@ -10,9 +10,31 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="ffmpeg -i input.mp4 -c copy -map 0 -segment_time 00:05:00 -f segment -reset_timestamps 1 output_%03d.mp4。">
+<meta name="description" content="1.
+ffmpeg -i input.mp4 -c copy -map 0 -segment_time 00:05:00 -f segment -reset_timestamps 1 output_%03d.mp4
+2. 文件批量操作
+```
+@echo off
+set 'output_base=G:\333'
+for %%F in (*.mp4) do (
+    ffmpeg -i '%%F' -c copy -map 0 -segment_time 00:05:00 -f segment -reset_timestamps 1 '%output_base%\%%~nF_%%03d.mp4'
+)
+pause
+```
+。">
 <meta property="og:title" content="ffmpeg将视频分为5分钟一个">
-<meta property="og:description" content="ffmpeg -i input.mp4 -c copy -map 0 -segment_time 00:05:00 -f segment -reset_timestamps 1 output_%03d.mp4。">
+<meta property="og:description" content="1.
+ffmpeg -i input.mp4 -c copy -map 0 -segment_time 00:05:00 -f segment -reset_timestamps 1 output_%03d.mp4
+2. 文件批量操作
+```
+@echo off
+set 'output_base=G:\333'
+for %%F in (*.mp4) do (
+    ffmpeg -i '%%F' -c copy -map 0 -segment_time 00:05:00 -f segment -reset_timestamps 1 '%output_base%\%%~nF_%%03d.mp4'
+)
+pause
+```
+。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="/life/post/ffmpeg-jiang-shi-pin-fen-wei-5-fen-zhong-yi-ge.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -73,7 +95,18 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>ffmpeg -i input.mp4 -c copy -map 0 -segment_time 00:05:00 -f segment -reset_timestamps 1 output_%03d.mp4</p>
+<div class="markdown-body" id="postBody"><ol>
+<li></li>
+</ol>
+<p>ffmpeg -i input.mp4 -c copy -map 0 -segment_time 00:05:00 -f segment -reset_timestamps 1 output_%03d.mp4<br /> 
+2. 文件批量操作</p>
+<pre><code>@echo off
+set &quot;output_base=G:\333&quot;
+for %%F in (*.mp4) do (
+    ffmpeg -i &quot;%%F&quot; -c copy -map 0 -segment_time 00:05:00 -f segment -reset_timestamps 1 &quot;%output_base%\%%~nF_%%03d.mp4&quot;
+)
+pause
+</code></pre>
 </div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
